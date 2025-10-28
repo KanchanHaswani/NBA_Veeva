@@ -1,0 +1,55 @@
+{
+  "testData": {
+    "warriors": {
+      "expectedSlideTitles": [
+        "Game Tickets",
+        "Season Tickets", 
+        "Group Tickets",
+        "Premium Seating"
+      ],
+      "expectedSlideDurations": [
+        "5s",
+        "3s", 
+        "4s",
+        "6s"
+      ]
+    },
+    "sixers": {
+      "expectedSlideTitles": [
+        "Single Game Tickets",
+        "Season Tickets",
+        "Group Tickets",
+        "Premium Seating"
+      ],
+      "expectedSlideDurations": [
+        "4s",
+        "5s",
+        "3s",
+        "6s"
+      ]
+    },
+    "bulls": {
+      "expectedFooterCategories": [
+        "Team",
+        "Tickets", 
+        "Shop",
+        "Social"
+      ],
+      "expectedLinkCounts": {
+        "team": 5,
+        "tickets": 3,
+        "shop": 4,
+        "social": 3
+      }
+    }
+  },
+  "urls": {
+    "warriors": "https://www.nba.com/warriors",
+    "sixers": "https://www.nba.com/sixers/",
+    "bulls": "https://www.nba.com/bulls/"
+  },
+  "browsers": {
+    "supported": ["chrome", "firefox", "edge"],
+    "default": "chrome"
+  }
+}
